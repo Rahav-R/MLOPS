@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
 # Load and preprocess the dataset
-d = pd.read_csv("C:/Users/Rahav Ramkr/mlops2/Streamlitml/Medicaldataset.csv")
+d = pd.read_csv("C:/Users/Rahul Ramakrishnan/OneDrive/Rahav/MLops/MLOPS/data/Medicaldataset.csv")
 l = LabelEncoder()
 d["Result"] = l.fit_transform(d["Result"])
 
